@@ -1,0 +1,35 @@
+
+.main-table {
+    margin: 5px;
+    color: #fff;
+    width: 1000px;
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #212121;
+    border-top: 4px solid #000000;
+    border-bottom: 1px solid #fff;
+    color: #ffffff;
+    padding: 8px;
+}
+
+td {
+    background: #414141;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+
+tr:hover {
+    background: #000000;
+    cursor: pointer;
+}
+
+tr:hover td {
+    background: #000000;
+    cursor: pointer;
+}
+

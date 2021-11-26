@@ -20,7 +20,18 @@
 .logo {
     line-height: 50%;
     margin: auto;
+}
 
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+
+.github_icon {
+    fill: #fff
 }
 
 main {

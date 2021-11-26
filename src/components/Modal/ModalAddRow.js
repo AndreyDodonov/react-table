@@ -8,15 +8,15 @@ class ModalAddRow extends React.Component {
             <div className="add-row">
                 <form onSubmit={this.props.submitHandle}>
 
-                        {/*<label>id</label> <br/>*/}
-                        <input
-                            className="add-row-input"
-                            type="text"
-                            name="id"
-                            onChange={this.props.changeHandle}
-                            placeholder="... id ..."
-                            required
-                        />
+                    {/*<label>id</label> <br/>*/}
+                    <input
+                        className="add-row-input"
+                        type="text"
+                        name="id"
+                        onChange={this.props.changeHandle}
+                        placeholder="... id ..."
+                        required
+                    />
 
 
                     {/*<label>firstName</label>*/}
@@ -56,15 +56,10 @@ class ModalAddRow extends React.Component {
                         required
                     />
 
-                    {
-
-                    }
-
-                        <button
-                            className="add-row-button"
-                        > Добавить
-                        </button>
-
+                    <button
+                        className="add-row-button"
+                    > Добавить
+                    </button>
 
                 </form>
 
@@ -73,7 +68,7 @@ class ModalAddRow extends React.Component {
     }
 }
 
-export {ModalAddRow};
+export { ModalAddRow };
 
 
 
